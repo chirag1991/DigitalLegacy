@@ -1,0 +1,31 @@
+{
+  "name": "digital-legacy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Preserve a living person's stories, personality and voice as an AI character their family can talk with.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --test tests/*.test.ts"
+  },
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.57.0",
+    "better-sqlite3": "^12.2.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^22.15.0",
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.0",
+    "typescript": "^5.8.0"
+  }
+}
